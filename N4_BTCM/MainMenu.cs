@@ -38,14 +38,6 @@ namespace N4_BTCM
             this.panelContent.Controls.Add(uc);
         }
 
-        private void loaiThuocMenuItem_Click(object sender, EventArgs e)
-        {
-            this.panelContent.Controls.Clear();
-            var uc = new UCQuanLyLoaiThuoc();
-            uc.Dock = DockStyle.Fill;
-            this.panelContent.Controls.Add(uc);
-        }
-
         private void khachHangMenuItem_Click(object sender, EventArgs e)
         {
             this.panelContent.Controls.Clear();
@@ -80,7 +72,17 @@ namespace N4_BTCM
 
         private void dangXuatMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Login loginForm = new Login();
+            loginForm.ShowDialog();
+            this.Close();
+        }
+
+        private void qlNccMenuItem_Click(object sender, EventArgs e)
+        {
+            this.panelContent.Controls.Clear();
+            var uc = new UCQuanLyLoaiThuoc();
+            uc.Dock = DockStyle.Fill;
+            this.panelContent.Controls.Add(uc);
         }
     }
 }

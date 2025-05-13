@@ -22,16 +22,15 @@ namespace N4_BTCM
 
         }
 
+        private void dgvThuoc_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         private void btnThem_Click(object sender, EventArgs e)
         {
             //  TODO: Thêm logic để thêm thuốc
             MessageBox.Show("Chức năng thêm thuốc đang được phát triển");
-        }
-
-        private void btnSua_Click(object sender, EventArgs e)
-        {
-            //  TODO: Thêm logic để sửa thuốc
-            MessageBox.Show("Chức năng sửa thuốc đang được phát triển");
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

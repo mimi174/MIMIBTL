@@ -70,6 +70,10 @@
     <Reference Include="System.Security.Cryptography.Xml, Version=8.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Security.Cryptography.Xml.8.0.2\lib\net462\System.Security.Cryptography.Xml.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DataVisualization.Design" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -94,8 +98,14 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="PasswordHasher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,13 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,6 +193,43 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resource\Icon\agreement.png" />
+    <Content Include="Resource\Icon\bear.png" />
+    <Content Include="Resource\Icon\bin.png" />
+    <Content Include="Resource\Icon\box.png" />
+    <Content Include="Resource\Icon\calendar.png" />
+    <Content Include="Resource\Icon\employees.png" />
+    <Content Include="Resource\Icon\excel.png" />
+    <Content Include="Resource\Icon\excel_import.png" />
+    <Content Include="Resource\Icon\gender-fluid.png" />
+    <Content Include="Resource\Icon\gross.png" />
+    <Content Include="Resource\Icon\growing.png" />
+    <Content Include="Resource\Icon\home.png" />
+    <Content Include="Resource\Icon\id.png" />
+    <Content Include="Resource\Icon\invoice.png" />
+    <Content Include="Resource\Icon\letter.png" />
+    <Content Include="Resource\Icon\machine-learning.png" />
+    <Content Include="Resource\Icon\magnifying-glass.png" />
+    <Content Include="Resource\Icon\order.png" />
+    <Content Include="Resource\Icon\overflow.png" />
+    <Content Include="Resource\Icon\phone.png" />
+    <Content Include="Resource\Icon\plus.png" />
+    <Content Include="Resource\Icon\price-tag.png" />
+    <Content Include="Resource\Icon\profile.png" />
+    <Content Include="Resource\Icon\rabbit.png" />
+    <Content Include="Resource\Icon\refresh-page-option.png" />
+    <Content Include="Resource\Icon\save.png" />
+    <Content Include="Resource\Icon\seed.png" />
+    <Content Include="Resource\Icon\seeds.png" />
+    <Content Include="Resource\Icon\transport.png" />
+    <Content Include="Resource\Icon\users-avatar.png" />
+    <Content Include="Resource\Icon\user_del.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resource\ProductImg\" />
+    <Folder Include="Resource\SuppliersLogo\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

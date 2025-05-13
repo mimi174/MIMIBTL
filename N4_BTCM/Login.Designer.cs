@@ -43,13 +43,15 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.lblNoAccount = new System.Windows.Forms.Label();
             this.lnkRegister = new System.Windows.Forms.LinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
             // 
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.Teal;
-            this.lblTitle.Location = new System.Drawing.Point(443, 116);
+            this.lblTitle.Location = new System.Drawing.Point(557, 116);
             this.lblTitle.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(1051, 221);
@@ -100,10 +102,10 @@
             // 
             // chkRemember
             // 
-            //this.chkRemember.Location = new System.Drawing.Point(12, 12);
-            //this.chkRemember.Name = "chkRemember";
-            //this.chkRemember.Size = new System.Drawing.Size(104, 24);
-            //this.chkRemember.TabIndex = 5;
+            this.chkRemember.Location = new System.Drawing.Point(0, 0);
+            this.chkRemember.Name = "chkRemember";
+            this.chkRemember.Size = new System.Drawing.Size(104, 24);
+            this.chkRemember.TabIndex = 0;
             // 
             // btnLogin
             // 
@@ -111,19 +113,20 @@
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(662, 781);
+            this.btnLogin.Location = new System.Drawing.Point(662, 757);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(252, 85);
             this.btnLogin.TabIndex = 6;
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Teal;
-            this.btnExit.Location = new System.Drawing.Point(1052, 781);
+            this.btnExit.Location = new System.Drawing.Point(1052, 757);
             this.btnExit.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(252, 85);
@@ -134,7 +137,7 @@
             // lblNoAccount
             // 
             this.lblNoAccount.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoAccount.Location = new System.Drawing.Point(665, 660);
+            this.lblNoAccount.Location = new System.Drawing.Point(665, 636);
             this.lblNoAccount.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblNoAccount.Name = "lblNoAccount";
             this.lblNoAccount.Size = new System.Drawing.Size(330, 47);
@@ -146,7 +149,7 @@
             // 
             this.lnkRegister.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkRegister.LinkColor = System.Drawing.Color.Teal;
-            this.lnkRegister.Location = new System.Drawing.Point(995, 660);
+            this.lnkRegister.Location = new System.Drawing.Point(995, 636);
             this.lnkRegister.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lnkRegister.Name = "lnkRegister";
             this.lnkRegister.Size = new System.Drawing.Size(331, 47);
@@ -156,17 +159,29 @@
             this.lnkRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lnkRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkRegister_LinkClicked);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::N4_BTCM.Properties.Resources.seeds;
+            this.pictureBox1.Location = new System.Drawing.Point(372, 105);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(248, 232);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // Login
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(1924, 1061);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.txtPassword);
-            //this.Controls.Add(this.chkRemember);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.lblNoAccount);
@@ -178,6 +193,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hệ thống bán thuốc bảo vệ thực vật";
             this.Load += new System.EventHandler(this.Login_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -189,6 +205,7 @@
 
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -19,16 +19,15 @@ namespace N4_BTCM
             MessageBox.Show("Chức năng thêm nhân viên đang được phát triển");
         }
 
-        private void btnSua_Click(object sender, EventArgs e)
-        {
-            //  TODO: Thêm logic để sửa nhân viên
-            MessageBox.Show("Chức năng sửa nhân viên đang được phát triển");
-        }
-
         private void btnXoa_Click(object sender, EventArgs e)
         {
             //  TODO: Thêm logic để xóa nhân viên
             MessageBox.Show("Chức năng xóa nhân viên đang được phát triển");
+        }
+
+        private void dgvNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
         private void btnXuatExcel_Click(object sender, EventArgs e)
@@ -115,5 +114,6 @@ namespace N4_BTCM
                 MessageBox.Show("Lỗi khi nhập Excel: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
     }
 }
