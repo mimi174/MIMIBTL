@@ -114,3 +114,44 @@ E:\N4_BTCM_MMT&HTTT\N4_BTCM\obj\Debug\N4_BTCM.csproj.Up2Date
 E:\N4_BTCM_MMT&HTTT\N4_BTCM\obj\Debug\N4_BTCM.exe
 E:\N4_BTCM_MMT&HTTT\N4_BTCM\obj\Debug\N4_BTCM.pdb
 E:\N4_BTCM_MMT&HTTT\N4_BTCM\obj\Debug\N4_BTCM.UC_DonHang.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\N4_BTCM.exe.config
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\N4_BTCM.exe
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\N4_BTCM.pdb
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\EPPlus.dll
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\EPPlus.Interfaces.dll
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.Buffers.dll
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.ComponentModel.Annotations.dll
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.Memory.dll
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.Numerics.Vectors.dll
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\EPPlus.xml
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.Buffers.xml
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.Memory.xml
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.Numerics.Vectors.xml
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.csproj.AssemblyReference.cache
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.exe.config
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.HoSoCaNhan.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.KhachHang.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.Login.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.MainMenu.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.Properties.Resources.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.Register.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.UCQuanLyHoaDon.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.UCQuanLyKhachHang.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.UCQuanLyLoaiThuoc.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.UCQuanLyNhanVien.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.UCQuanLyThuoc.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.UCThongKe.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.UC_DonHang.resources
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.csproj.GenerateResource.cache
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.csproj.CoreCompileInputs.cache
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.csproj.Up2Date
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.exe
+D:\hoc tap\MIMI\MIMIBTL\N4_BTCM\obj\Debug\N4_BTCM.pdb

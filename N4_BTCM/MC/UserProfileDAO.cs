@@ -17,8 +17,7 @@ namespace N4_BTCM
 
             using (SqlConnection conn = db.GetConnection())
             {
-
-                string query = "SELECT * FROM UserProfiles WHERE Id = @Id";
+                string query = "SELECT * FROM Users WHERE UserID = @Id";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@Id", userId);
 
@@ -28,13 +27,13 @@ namespace N4_BTCM
                     {
                         user = new UserProfile
                         {
-                            Id = (int)reader["Id"],
-                            HoTen = reader["HoTen"].ToString(),
+                            Id = (int)reader["UserID"],
+                            HoTen = reader["FullName"].ToString(),
                             NgaySinh = reader["NgaySinh"] != DBNull.Value ? Convert.ToDateTime(reader["NgaySinh"]) : DateTime.MinValue,
                             GioiTinh = reader["GioiTinh"].ToString(),
-                            SoDienThoai = reader["SoDienThoai"].ToString(),
+                            SoDienThoai = reader["Phone"].ToString(),
                             Email = reader["Email"].ToString(),
-                            DiaChi = reader["DiaChi"].ToString(),
+                            DiaChi = reader["Address"].ToString(),
                             Avatar = reader["Avatar"] != DBNull.Value ? (byte[])reader["Avatar"] : null
                         };
                     }
@@ -51,15 +50,15 @@ namespace N4_BTCM
         {
             using (SqlConnection conn = db.GetConnection())
             {
-                string query = @"UPDATE UserProfiles SET 
-                                    HoTen = @HoTen,
+                string query = @"UPDATE Users SET 
+                                    FullName = @HoTen,
                                     NgaySinh = @NgaySinh,
                                     GioiTinh = @GioiTinh,
-                                    SoDienThoai = @SoDienThoai,
+                                    Phone = @SoDienThoai,
                                     Email = @Email,
-                                    DiaChi = @DiaChi,
+                                    Address = @DiaChi,
                                     Avatar = @Avatar
-                                WHERE Id = @Id";
+                                WHERE UserID = @Id";
 
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@HoTen", profile.HoTen);

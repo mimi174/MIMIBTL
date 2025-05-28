@@ -10,7 +10,7 @@ namespace N4_BTCM
 {
     internal class DBConnection
     {
-        private string connectionString = "Data Source=DESKTOP-SJA1N54\\SQLEXPRESS;Initial Catalog=CHTBVTV;Integrated Security=True;";
+        private string connectionString = "Data Source=Admin-PC\\SQLEXPRESS;Initial Catalog=CHTBVTV;Integrated Security=True;";
       //tk: admin pass: adminpass123
         public SqlConnection GetConnection()
         {
