@@ -20,19 +20,26 @@ namespace N4_BTCM
 
             // Bắt đầu với form Login
             Login loginForm = new Login();
-
-            // Hiển thị form Login dưới dạng Dialog
-            // ShowDialog() chặn luồng cho đến khi form Login đóng
             if (loginForm.ShowDialog() == DialogResult.OK)
             {
-                // Nếu login thành công (DialogResult.OK được trả về từ form Login)
-                // thì hiển thị form MainMenu
-                Application.Run(new MainMenu());
+                switch (Login.LoggedInRoleID)
+                {
+                    case 1:
+                        Application.Run(new MainMenu());
+                        break;
+                    case 2:
+                        
+                        break;
+                    case 3:
+                        Application.Run(new KhachHang());
+                        break;
+                    default:
+                        MessageBox.Show("Không xác định quyền truy cập.");
+                        break;
+                }
             }
             else
             {
-                // Nếu login không thành công hoặc người dùng đóng form Login mà không phải OK
-                // thì ứng dụng sẽ thoát
                 Application.Exit();
             }
         }
